@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* overflow: hidden; */
+    margin: 0px;
+    padding: 0px;
+}
+/* img{
+    width: 100%;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+} */
+/* a{
+    color: #0d6efd;
+    text-decoration: underline;
+} */
+footer{
+    text-align: center;
+    background-color: black;
+    min-height: 12vh;
+    padding: 0.5rem;
+    color: rgb(251, 252, 251);
+    font-size: 1.1rem;
+}
+.foot{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-info{
+    margin-bottom: 30px;
+    text-align: center;
+    /* display: block;
+    justify-content: space-around;
+    align-items: center; */
+}
+.footer-logo{
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.social-links{
+    margin-top: 1rem;
+    display: block;
+}
+.social-links a{
+    font-size: 13px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    padding: 7px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.social-links a:hover{
+    color: green;
+}
+.fb, .tw, .yt, .insta, .linkedin{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.fb .fb-text,
+.tw .tw-text,
+.yt .yt-text,
+.insta .insta-text,
+.linkedin .linkedin-text {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+.fb:hover .fb-text,
+.tw:hover .tw-text,
+.yt:hover .yt-text,
+.insta:hover .insta-text,
+.linkedin:hover .linkedin-text {
+    visibility: visible;
+}
+.footer-complaint-link{
+    margin-top: 40px;
+    background-color: red;
+    border-radius: 20px;
+}
+.footer-complaint-link:hover{
+    background-color: green;
+}
+.footer-complaint-link a{
+    color: white;
+}
+.footer-complaint-link a:hover{
+    text-decoration: underline;
+}
+.extra-links{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.extra-links ul{
+    margin-top: 1rem;
+    display: block;
+}
+.extra-links a{
+    color: white;
+    font-size: 15px;
+}
+.extra-links a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.footer-contact{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.footer-contact ul, .footer-contact p, .footer-contact a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.loc-icon{
+    color: red;
+}
+.loc a{
+    color: blueviolet;
+}
+.copy-right p{
+    color: yellow;
+}
